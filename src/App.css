@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-bg {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #79DAE8;
+  background-image: linear-gradient(#79DAE8, #2155CD);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.today-con {
+  display: flex;
+}
+
+.weather-today {
+  width: 60%;
+}
+
+.search-city {
+  width: 40%;
+}
+
+.card-predict {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.card-predict div {
+  margin: 5px 2px 2px 0;
+}
+
+.card-predict div:nth-last-child(1) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .today-con {
+    flex-direction: column-reverse;
+  }
+
+  .weather-today {
+    width: 100%;
+  }
+
+  .search-city {
+    width: 100%;
+  }
+
+}

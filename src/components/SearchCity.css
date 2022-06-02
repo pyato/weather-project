@@ -1,0 +1,32 @@
+.search-con {
+    display: block;
+    margin-top: 1rem;
+}
+
+.search-con input {
+    width: 100%;
+    padding: 10px;
+    border: 1px none rgb(199, 199, 199);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.search-con p {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.search-content p:nth-child(2) {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 420px) {
+    .search-con input {
+        width: 80%;
+    }
+
+    .search-con {
+        text-align: center;
+    }
+}
