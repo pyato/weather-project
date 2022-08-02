@@ -20,7 +20,7 @@ function App() {
     let lon = await response.data[0].lon
     response = await axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_API_KEY}`)
     setWeather(response.data)
-    console.log("HI ball");
+    console.log("HI ball sdfsd");
   }
 
   return (
