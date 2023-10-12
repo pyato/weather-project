@@ -9,7 +9,7 @@ import CardPredictDetail from './components/CardPredictDetail';
 function App() {
   const [weather, setWeather] = useState();
   const [location, setLocation] = useState("");
-  const [city, setCity] = useState("Enter yor city");
+  const [city, setCity] = useState("ENTER YOU CITY");
   const [selectIndex, setSelectIndex] = useState(1);
   const [selectDay, setSelectDay] = useState("");
 
